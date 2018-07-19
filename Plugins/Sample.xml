@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ListData>
+  <Data>
+    <MenuID>1</MenuID>
+    <MenuName>xx</MenuName>
+    <MenuIdParent>10</MenuIdParent>
+  </Data>
+  <Data>
+    <MenuID>2</MenuID>
+    <MenuName>yy</MenuName>
+    <MenuIdParent>10</MenuIdParent>
+  </Data>
+</ListData>

@@ -1,0 +1,436 @@
+﻿<XtraSerializer version="1.0" application="LayoutControl">
+  <property name="#LayoutVersion" />
+  <property name="Items" iskey="true" value="19">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="CustomizationFormText">layoutControlGroup1</property>
+      <property name="Visibility">Always</property>
+      <property name="CaptionImageLocation">Default</property>
+      <property name="ParentName" />
+      <property name="TextVisible">false</property>
+      <property name="Name">Root</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Size">@2,Width=50@2,Height=26</property>
+      <property name="ExpandButtonLocation">Default</property>
+      <property name="GroupBordersVisible">true</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="Text">Root</property>
+      <property name="Expanded">true</property>
+      <property name="Spacing">2, 2, 2, 2</property>
+      <property name="CaptionImageVisible">true</property>
+      <property name="TextLocation">Top</property>
+      <property name="TabbedGroupParentName" />
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Padding">0, 0, 0, 0</property>
+      <property name="OptionsItemText" isnull="true" iskey="true">
+        <property name="TextAlignMode">UseParentOptions</property>
+        <property name="TextToControlDistance">5</property>
+      </property>
+      <property name="TypeName">LayoutGroup</property>
+      <property name="DefaultLayoutType">Vertical</property>
+      <property name="ExpandButtonVisible">false</property>
+      <property name="CaptionImageIndex">-1</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="MinSize">@3,Width=138@2,Height=21</property>
+      <property name="TextSize">@2,Width=72@2,Height=20</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">radioGroupType</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem1</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">Cách khởi tạo</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">layoutControlItem1</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="TypeName">LayoutControlItem</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Visibility">Always</property>
+      <property name="TextToControlDistance">5</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="MinSize">@3,Width=138@2,Height=31</property>
+      <property name="TextSize">@2,Width=72@2,Height=20</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">textEditUser</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem3</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">Tên đăng nhập</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@1,Width=0@2,Height=31</property>
+      <property name="TextLocation">Left</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">Tên đăng nhập</property>
+      <property name="TypeName">LayoutControlItem</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Visibility">Always</property>
+      <property name="TextToControlDistance">5</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="MinSize">@3,Width=138@2,Height=31</property>
+      <property name="TextSize">@2,Width=72@2,Height=20</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">textEditPassword</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem4</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">Mật khẩu</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@1,Width=0@2,Height=31</property>
+      <property name="TextLocation">Left</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">Mật khẩu</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="TypeName">LayoutControlItem</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Visibility">Always</property>
+      <property name="TextToControlDistance">5</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=10@2,Height=10</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName" isnull="true" />
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">emptySpaceItem1</property>
+      <property name="ParentName">Root</property>
+      <property name="Name">emptySpaceItem1</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="Visibility">Always</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextLocation">Default</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="TypeName">EmptySpaceItem</property>
+      <property name="CustomizationFormText">emptySpaceItem1</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=10@2,Height=10</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName" isnull="true" />
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">emptySpaceItem2</property>
+      <property name="ParentName">Root</property>
+      <property name="Name">emptySpaceItem2</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextLocation">Default</property>
+      <property name="CustomizationFormText">emptySpaceItem2</property>
+      <property name="TypeName">EmptySpaceItem</property>
+      <property name="Visibility">Always</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="TextToControlDistance">0</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=10@2,Height=10</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName" isnull="true" />
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">emptySpaceItem5</property>
+      <property name="ParentName">Root</property>
+      <property name="Name">emptySpaceItem5</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextLocation">Default</property>
+      <property name="CustomizationFormText">emptySpaceItem5</property>
+      <property name="TypeName">EmptySpaceItem</property>
+      <property name="Visibility">Always</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="TextToControlDistance">0</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=10@2,Height=10</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName" isnull="true" />
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">emptySpaceItem6</property>
+      <property name="ParentName">Root</property>
+      <property name="Name">emptySpaceItem6</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="Visibility">Always</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextLocation">Default</property>
+      <property name="CustomizationFormText">emptySpaceItem6</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="TypeName">EmptySpaceItem</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="MinSize">@3,Width=138@2,Height=21</property>
+      <property name="TextSize">@2,Width=72@2,Height=20</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">radioGroupCnnType</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem7</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">Loại kết nối</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Visibility">Always</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="CustomizationFormText">Loại số liệu</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TypeName">LayoutControlItem</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=61@2,Height=31</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">textEdit1</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItemProgress</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">layoutControlItemProgress</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@2,Height=31</property>
+      <property name="TextLocation">Left</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">layoutControlItemProgress</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="TypeName">LayoutControlItem</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Visibility">Always</property>
+      <property name="TextToControlDistance">0</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="MinSize">@3,Width=138@2,Height=31</property>
+      <property name="TextSize">@2,Width=72@2,Height=20</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">textEditServer</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem2</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">Tên máy chủ</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@1,Width=0@2,Height=31</property>
+      <property name="TextLocation">Left</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">Tên máy chủ SQL</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Visibility">Always</property>
+      <property name="TypeName">LayoutControlItem</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="MinSize">@3,Width=138@2,Height=31</property>
+      <property name="TextSize">@2,Width=72@2,Height=20</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">txtCDT</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem8</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">Dữ liệu Struct</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@1,Width=0@2,Height=31</property>
+      <property name="TextLocation">Left</property>
+      <property name="Visibility">Always</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="CustomizationFormText">Dữ liệu Struct</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TypeName">LayoutControlItem</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="MinSize">@3,Width=141@2,Height=30</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">cEis2005</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem9</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">layoutControlItem9</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@2,Height=30</property>
+      <property name="TextLocation">Left</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">layoutControlItem9</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Visibility">Always</property>
+      <property name="TypeName">LayoutControlItem</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=76@2,Height=33</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">simpleButtonOk</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem5</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">layoutControlItem5</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@2,Height=33</property>
+      <property name="TextLocation">Left</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">layoutControlItem5</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="TypeName">LayoutControlItem</property>
+      <property name="Visibility">Always</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="TextToControlDistance">0</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=57@2,Height=33</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">simpleButtonCancel</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem6</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">layoutControlItem6</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@2,Height=33</property>
+      <property name="TextLocation">Left</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">layoutControlItem6</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="TypeName">LayoutControlItem</property>
+      <property name="Visibility">Always</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=10@2,Height=10</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName" isnull="true" />
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">emptySpaceItem3</property>
+      <property name="ParentName">Root</property>
+      <property name="Name">emptySpaceItem3</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="Visibility">Always</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="CustomizationFormText">emptySpaceItem3</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="TextLocation">Default</property>
+      <property name="TypeName">EmptySpaceItem</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=10@2,Height=10</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName" isnull="true" />
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">emptySpaceItem4</property>
+      <property name="ParentName">Root</property>
+      <property name="Name">emptySpaceItem4</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="Visibility">Always</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextLocation">Default</property>
+      <property name="CustomizationFormText">emptySpaceItem4</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="TypeName">EmptySpaceItem</property>
+      <property name="TextToControlDistance">0</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=79@2,Height=33</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=1</property>
+      <property name="ControlName">simpleButton1</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Name">layoutControlItem10</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">layoutControlItem10</property>
+      <property name="ParentName">Root</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@2,Height=33</property>
+      <property name="TextLocation">Left</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="CustomizationFormText">layoutControlItem10</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="TypeName">LayoutControlItem</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Visibility">Always</property>
+      <property name="TextToControlDistance">0</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="MinSize">@2,Width=10@2,Height=10</property>
+      <property name="TextSize">@1,Width=0@1,Height=0</property>
+      <property name="Size">@1,Width=1@1,Height=0</property>
+      <property name="ControlName" isnull="true" />
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Text">emptySpaceItem7</property>
+      <property name="ParentName">Root</property>
+      <property name="Name">emptySpaceItem7</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@1,Width=0@1,Height=0</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextLocation">Default</property>
+      <property name="CustomizationFormText">emptySpaceItem7</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="TypeName">EmptySpaceItem</property>
+      <property name="Visibility">Always</property>
+    </property>
+  </property>
+  <property name="LookAndFeel" isnull="true" iskey="true">
+    <property name="UseDefaultLookAndFeel">true</property>
+    <property name="UseWindowsXPTheme">false</property>
+    <property name="SkinName">Caramel</property>
+    <property name="Style">Skin</property>
+  </property>
+</XtraSerializer>

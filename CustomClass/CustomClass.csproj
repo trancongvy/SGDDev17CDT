@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A6312C6B-AE3A-4650-B0E7-68B92CE7B7AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomClass</RootNamespace>
+    <AssemblyName>CustomClass</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CBSControls, Version=1.0.3771.19215, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CDT\bin\Debug\CBSControls.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Data.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Utils.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.1.Design, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v11.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraPrinting.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraReports.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v11.1.Design, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraReports.v11.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomBeforePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomBeforePrint.designer.cs">
+      <DependentUpon>CustomBeforePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomData.cs" />
+    <Compile Include="dPhieuGiaoHang.cs" />
+    <Compile Include="fNhapChisocongter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNhapChisocongter.Designer.cs">
+      <DependentUpon>fNhapChisocongter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPhieuGiaohang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPhieuGiaohang.Designer.cs">
+      <DependentUpon>fPhieuGiaohang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPhieuGiaohangdt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPhieuGiaohangdt.Designer.cs">
+      <DependentUpon>fPhieuGiaohangdt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fXuatHoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fXuatHoadon.Designer.cs">
+      <DependentUpon>fXuatHoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sChonNgayHethong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sChonNgayHethong.Designer.cs">
+      <DependentUpon>sChonNgayHethong.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomBeforePrint.resx">
+      <DependentUpon>CustomBeforePrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNhapChisocongter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fNhapChisocongter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPhieuGiaohang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fPhieuGiaohang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPhieuGiaohangdt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fPhieuGiaohangdt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fXuatHoadon.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fXuatHoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sChonNgayHethong.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sChonNgayHethong.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CDTControl\CDTControl.csproj">
+      <Project>{8EEECDAC-1392-4262-A698-B5BE74ADCF72}</Project>
+      <Name>CDTControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDTDatabase\CDTDatabase.csproj">
+      <Project>{9BBDB6C7-70F8-4805-BB51-445551E282C5}</Project>
+      <Name>CDTDatabase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDTLib\CDTLib.csproj">
+      <Project>{CF282973-8899-4C28-8286-71155CBE9C3A}</Project>
+      <Name>CDTLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevControls\DevControls.csproj">
+      <Project>{4983AC7A-6DF3-4F84-951F-5589B56C4AC5}</Project>
+      <Name>DevControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormFactory\FormFactory.csproj">
+      <Project>{1A72F659-C361-4FD3-ABE8-EF03B6F33A78}</Project>
+      <Name>FormFactory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

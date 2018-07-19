@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A72F659-C361-4FD3-ABE8-EF03B6F33A78}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FormFactory</RootNamespace>
+    <AssemblyName>FormFactory</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CBSControls, Version=1.0.4330.26798, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CBS Controls\bin\Debug\CBSControls.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v11.1.Core, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Charts.v11.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Data.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Printing.v11.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Utils.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraBars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraCharts.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v11.1.Design, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraCharts.v11.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v11.1.Extensions, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraCharts.v11.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v11.1.UI, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraCharts.v11.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.1.Design, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v11.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.1.Design, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v11.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraPrinting.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraReports.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v11.1.Design, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraReports.v11.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v11.1.Extensions, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraReports.v11.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraScheduler.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v11.1.Core, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraScheduler.v11.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraTreeList.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Fomula, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\Fomula.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BeforePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeforePrint.designer.cs">
+      <DependentUpon>BeforePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CDTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fComment.Designer.cs">
+      <DependentUpon>fComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fFlowAnalyze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fFlowAnalyze.Designer.cs">
+      <DependentUpon>fFlowAnalyze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fShowActionHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fShowActionHistory.Designer.cs">
+      <DependentUpon>fShowActionHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fShowDocWF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fShowDocWF.Designer.cs">
+      <DependentUpon>fShowDocWF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fShowHistoryMtdt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fShowHistoryMtdt.Designer.cs">
+      <DependentUpon>fShowHistoryMtdt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fImExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fImExcel.designer.cs">
+      <DependentUpon>fImExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDesigner.cs" />
+    <Compile Include="FormFactory.cs" />
+    <Compile Include="FrmDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetail.Designer.cs">
+      <DependentUpon>FrmDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterDetail.Designer.cs">
+      <DependentUpon>FrmMasterDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterDetailDt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterDetailDt.Designer.cs">
+      <DependentUpon>FrmMasterDetailDt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSgMergeCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSgMergeCode.Designer.cs">
+      <DependentUpon>FrmSgMergeCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSingle.Designer.cs">
+      <DependentUpon>FrmSingle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSingleDt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSingleDt.Designer.cs">
+      <DependentUpon>FrmSingleDt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fShowHistorySgle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fShowHistorySgle.Designer.cs">
+      <DependentUpon>fShowHistorySgle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutCustomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayoutCustomForm.Designer.cs">
+      <DependentUpon>LayoutCustomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BeforePrint.resx">
+      <DependentUpon>BeforePrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDTForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CDTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fComment.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fFlowAnalyze.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fFlowAnalyze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fShowActionHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fShowActionHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fShowDocWF.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fShowDocWF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fShowHistoryMtdt.resx">
+      <DependentUpon>fShowHistoryMtdt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fImExcel.resx">
+      <DependentUpon>fImExcel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterDetailDt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterDetailDt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPQ.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSgMergeCode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSgMergeCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSingle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSingle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSingleDt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSingleDt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fShowHistorySgle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fShowHistorySgle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayoutCustomForm.resx">
+      <DependentUpon>LayoutCustomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportFilter.resx">
+      <DependentUpon>ReportFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPreview.resx">
+      <DependentUpon>ReportPreview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>thu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uyquyen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Uyquyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FrmPQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportFilter.designer.cs">
+      <DependentUpon>ReportFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportPreview.Designer.cs">
+      <DependentUpon>ReportPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thu.Designer.cs">
+      <DependentUpon>thu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uyquyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uyquyen.Designer.cs">
+      <DependentUpon>Uyquyen.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CDTControl\CDTControl.csproj">
+      <Project>{8EEECDAC-1392-4262-A698-B5BE74ADCF72}</Project>
+      <Name>CDTControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDTDatabase\CDTDatabase.csproj">
+      <Project>{9BBDB6C7-70F8-4805-BB51-445551E282C5}</Project>
+      <Name>CDTDatabase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDTLIb\CDTLib.csproj">
+      <Project>{CF282973-8899-4C28-8286-71155CBE9C3A}</Project>
+      <Name>CDTLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CusCDTData\CusCDTData.csproj">
+      <Project>{6EAFCE2A-4DF1-40B3-BE77-0195539C8A92}</Project>
+      <Name>CusCDTData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataFactory\DataFactory.csproj">
+      <Project>{91C9EBB2-ABAA-4ABE-A659-69E2208BF10E}</Project>
+      <Name>DataFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignWorkflow\DesignWorkflow.csproj">
+      <Project>{8E505B22-96F0-4085-A510-5BE535DD4D4B}</Project>
+      <Name>DesignWorkflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevControls\DevControls.csproj">
+      <Project>{4983AC7A-6DF3-4F84-951F-5589B56C4AC5}</Project>
+      <Name>DevControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ErrorManager\ErrorManager.csproj">
+      <Project>{87726715-c19d-44ad-9ca0-90097d40eb39}</Project>
+      <Name>ErrorManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\Plugins.csproj">
+      <Project>{AFA2F1D0-B84B-406A-99D3-9ADA58DBFFCD}</Project>
+      <Name>Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\publicCDT\publicCDT.csproj">
+      <Project>{2bf8a753-e0f0-43ce-b883-d15013b744d3}</Project>
+      <Name>publicCDT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ichat-blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

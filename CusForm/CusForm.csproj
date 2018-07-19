@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF623EEA-DCCD-4272-B2A2-03D925072EC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CusForm</RootNamespace>
+    <AssemblyName>CusForm</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CBSControls, Version=1.0.3771.19215, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CDT\bin\Debug\CBSControls.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.Utils.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraBars.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraGrid.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraPrinting.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v7.2.Design, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="Fomula, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\Fomula.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BeforePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeforePrint.designer.cs">
+      <DependentUpon>BeforePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CDTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevLocalizer.cs" />
+    <Compile Include="FormDesigner.cs" />
+    <Compile Include="FormFactory.cs" />
+    <Compile Include="FrmDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetail.Designer.cs">
+      <DependentUpon>FrmDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterDetail.Designer.cs">
+      <DependentUpon>FrmMasterDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMasterDetailDt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMasterDetailDt.Designer.cs">
+      <DependentUpon>FrmMasterDetailDt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSgMergeCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSgMergeCode.Designer.cs">
+      <DependentUpon>FrmSgMergeCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSingle.Designer.cs">
+      <DependentUpon>FrmSingle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSingleDt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSingleDt.Designer.cs">
+      <DependentUpon>FrmSingleDt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BeforePrint.resx">
+      <DependentUpon>BeforePrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDTForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CDTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMasterDetailDt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterDetailDt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPQ.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSgMergeCode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSgMergeCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSingle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSingle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSingleDt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSingleDt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FrmPQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CDTControl\CDTControl.csproj">
+      <Project>{8EEECDAC-1392-4262-A698-B5BE74ADCF72}</Project>
+      <Name>CDTControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDTLIb\CDTLib.csproj">
+      <Project>{CF282973-8899-4C28-8286-71155CBE9C3A}</Project>
+      <Name>CDTLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CusCDTData\CusCDTData.csproj">
+      <Project>{6EAFCE2A-4DF1-40B3-BE77-0195539C8A92}</Project>
+      <Name>CusCDTData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CusData\CusData.csproj">
+      <Project>{58193B62-EB14-41D0-92F5-DE6135E3C8AA}</Project>
+      <Name>CusData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevControls\DevControls.csproj">
+      <Project>{4983AC7A-6DF3-4F84-951F-5589B56C4AC5}</Project>
+      <Name>DevControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\Plugins.csproj">
+      <Project>{AFA2F1D0-B84B-406A-99D3-9ADA58DBFFCD}</Project>
+      <Name>Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
